@@ -1,0 +1,107 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+/* Main Content */
+main {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    margin-bottom: 20px;
+}
+
+/* Gallery Styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.pet {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+}
+
+.pet img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.pet p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
